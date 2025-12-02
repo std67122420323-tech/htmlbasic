@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web form</title>
+    <style>
+    body {
+        font-family: Tahoma, sans-serif;
+    }
+    .container {
+        width: 500px;
+        margin: auto;
+        background: #ebdcb2;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #f8bf75;
+    }
+    h2 {
+        text-align: center;
+        
+    }
+    
+</style>
+</head>
+<body>
+   <div class="container">
+    <table>
+    <h1>แบบสอบถาม</h1>
+    <hr></hr>
+
+   <form action="" method="post"novalidate>
+        <label for="name"><b>ข้อมูลผู้ตอบแบบสอบถาม</b></label><br
+        <label for="name"><b>ชื่อ-นามสกุล: </b></label>
+        <input placeholder="" type="text" id="name"size=51" required><br>
+        <label for="Student ID"><b>รหัสนักศีกษา: </b></label>
+        <input placeholder="" type="text" id="Student ID"size=51" required><br>
+        <label for="Sex"><b>เพศ:</b></label>
+        <input type="radio" id="male" name="Sex" value="male"> ชาย
+        <input type="radio" id="femle" name="Sex" value="male"> ผู้หญิง</div><br>
+        <br><br><br><br>
+
+        <label for="faculty"><b>สังกัดคณะ </b></label>
+        ><select id="faculty"size="9">
+            <option value="name">วิทยาศาสตร์</option>
+            <option value="name">วิทยาการคอมพิวเตอร์</option>
+            <option value="name">ครุศาสตร์</option>
+            <option value="name">บริหารธุรกิจและการจัดการ</option>
+            <option value="name">มนุษยศาสตร์</option>
+            <option value="name">เทคโนโลยีอุตสาหกรรม</option>
+            <option value="name">เกษตรศาสตร์</option>
+            <option value="name">พยาบาลศาสตร์</option>
+            <option value="name">สาธารณสุขศาสตร์</option>
+            <option value="name">แพทย์แผนไทยและทางเลือก</option>
+            <option value="name">นิติศาสตร์</option>
+         
+        </select><br><br><br><br><br>
+        <label for="color"><b>แม่สีที่ชอบ</b></label><br>
+        <input type="checkbox" id="red" name="color" value="red"> แดง
+        <input type="checkbox" id="green" name="color" value="green"> น้ำเงิน
+        <input type="checkbox" id="blue" name="color" value="blue">สีน้ำเงิน
+
+        <br><br><br><br>
+        <label for="name"><b>ผลไม้ที่ชื่นชอบ</b></label><br>
+        <input type="checkbox"> มะม่วง
+        <input type="checkbox"> น้อยหน่า
+        <input type="checkbox"> ทุเรียน <br>
+        <input type="checkbox"> ลำไย
+        <input type="checkbox"> ฝรั่ง
+        <input type="checkbox"> เเตงโม
+        <br><br><br><br>
+        <label for="name"><b>อาหารที่ชื่นชอบ</b></label><br>
+        <input type="checkbox"> ต้มยำกุ้ง
+        <input type="checkbox"> ไข่เจียวหมูสับ
+        <input type="checkbox"> เเกงขาไก่ <br>
+        <input type="checkbox"> เเกงเขียวหวาน
+        <input type="checkbox"> ผัดไทย
+        <input type="checkbox"> ราดหน้าหมี่กรอบ
+        <br>
+        <label for="submit"></label><br>
+       
+       <div style="text-align: center;">
+             <button>บันทึก</button>
+         </div>
+
+
+</div>
+    </table>
+
+   </form>
+</body>
+</html>
