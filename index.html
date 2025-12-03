@@ -24,24 +24,28 @@
 </style>
 </head>
 <body>
-   <div class="container">
+
     <table>
-    <h1>แบบสอบถาม</h1>
+        <div class="container">
+    <h2>แบบสอบถาม</h2>
     <hr></hr>
 
-   <form action="" method="post"novalidate>
-        <label for="name"><b>ข้อมูลผู้ตอบแบบสอบถาม</b></label><br
-        <label for="name"><b>ชื่อ-นามสกุล: </b></label>
-        <input placeholder="" type="text" id="name"size=51" required><br>
-        <label for="Student ID"><b>รหัสนักศีกษา: </b></label>
-        <input placeholder="" type="text" id="Student ID"size=51" required><br>
+        <h1>ข้อมูลผู้ตอบแบบสอบถาม</h1>
+        <form>
+
+        <label style="display:inline-block; width:100px;" ><b> ชื่อ-นามสกุล </b></label>
+        <input type="text" id="name"width="100"> <br>
+        <label style="display: inline-block;width: 100px;"> <b> รหัสนักศีกษา </b></label>
+        <input type="text" id="name"width="100"> <br><br>
+        
         <label for="Sex"><b>เพศ:</b></label>
         <input type="radio" id="male" name="Sex" value="male"> ชาย
-        <input type="radio" id="femle" name="Sex" value="male"> ผู้หญิง</div><br>
-        <br><br><br><br>
+        <input type="radio" id="femle" name="Sex" value="male"> ผู้หญิง<br>
+        <br><br>
 
-        <label for="faculty"><b>สังกัดคณะ </b></label>
-        ><select id="faculty"size="9">
+        <label for="faculty" style="display: inline-block;width: 100px; vertical-align: top;"><br><br><br><b>สังกัดคณะ </b></label>
+        <select id="faculty"size="9">
+
             <option value="name">วิทยาศาสตร์</option>
             <option value="name">วิทยาการคอมพิวเตอร์</option>
             <option value="name">ครุศาสตร์</option>
@@ -83,10 +87,9 @@
              <button>บันทึก</button>
          </div>
 
-
+</form>
 </div>
     </table>
-
    </form>
 </body>
 </html>
